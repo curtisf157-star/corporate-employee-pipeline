@@ -21,7 +21,7 @@ An end-to-end HR analytics project: cleaning a messy 1,020-row employee dataset 
 *Overall attrition rate, attrition by department, and a stacked breakdown of Active / Inactive / Pending by department.*
 
 ### Page 4 — Remote & Performance
-![Remote & Performance](remote & performance.png)
+![Remote & Performance](Remote & Performance.png)
 *Remote work split, performance distribution, and a matrix of performance score vs. remote status.*
 
 ---
