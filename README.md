@@ -9,7 +9,7 @@ An end-to-end HR analytics project: cleaning a messy 1,020-row employee dataset 
 ## 📸 Dashboard Preview
 
 ### Page 1 — Overview
-![Overview](powerbi/screenshots/overview.png)
+![Overview](Overview.png)
 *Headcount KPIs, hiring trend over time, and headcount by department and region.*
 
 ### Page 2 — Compensation
