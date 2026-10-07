@@ -1,39 +1,70 @@
-# HR Analytics Dashboard — Power BI + Python + SQL
+# HR Analytics Dashboard — Python + SQL + Power BI
 
-An end-to-end HR analytics project: cleaning a messy 1,020-row employee
-dataset, loading it into a database, and building an interactive Power BI
-dashboard to answer real HR business questions.
+An end-to-end HR analytics project: cleaning a messy 1,020-row employee dataset with Python, loading it into SQL, and building a 4-page interactive Power BI dashboard that answers real HR business questions.
 
-## Business Questions Answered
-- Which departments have the highest turnover?
-- Is salary distributed fairly across regions?
-- Does remote work correlate with performance?
-- How has headcount grown over time?
+**Built with:** Python (pandas) · SQL · Power BI (DAX) · Git
 
-## Tech Stack
-- **Python (pandas)** — data cleaning, validation, quality reporting
-- **SQL** — analytical queries for KPIs
-- **Power BI** — interactive dashboard with DAX measures
-- **Git** — version control
+---
 
-## The Data
-Raw: 1,020 employee records with missing ages, missing salaries (N/A),
-inconsistent formatting, and negative phone numbers.
-Cleaned: standardized names, split department/region, converted types,
-validated emails, imputed missing ages from department medians.
+## 📸 Dashboard Preview
 
-See [`insights.md`](insights.md) for full findings.
-
-## Dashboard Preview
+### Page 1 — Overview
 ![Overview](powerbi/screenshots/overview.png)
-![Salary](powerbi/screenshots/salary_analysis.png)
+*Headcount KPIs, hiring trend over time, and headcount by department and region.*
 
-## Key Insights
-1. **Attrition hotspots** — [fill in from your dashboard]
-2. **Salary gaps** — [fill in]
-3. **Remote work** — [fill in]
+### Page 2 — Compensation
+![Compensation](powerbi/screenshots/compensation.png)
+*Average salary by department and region, plus the top 10 earners.*
 
-## How to Reproduce
-1. `pip install pandas`
-2. `python python/clean_employees.py`
-3. Open `HR_Analytics_PowerBI.pbix` in Power BI Desktop
+### Page 3 — Attrition
+![Attrition](powerbi/screenshots/attrition.png)
+*Overall attrition rate, attrition by department, and a stacked breakdown of Active / Inactive / Pending by department.*
+
+### Page 4 — Remote & Performance
+![Remote & Performance](powerbi/screenshots/remote_performance.png)
+*Remote work split, performance distribution, and a matrix of performance score vs. remote status.*
+
+---
+
+## 🎯 Business Questions Answered
+
+1. How many employees does the company have, and how has headcount grown?
+2. Which departments and regions carry the largest headcount?
+3. Where is attrition concentrated, and how severe is it?
+4. Is compensation consistent across departments and regions?
+5. Does remote work affect performance?
+
+---
+
+## 🧰 Tech Stack
+
+| Layer | Tool | Purpose |
+|---|---|---|
+| Data cleaning | Python (pandas) | Standardize, validate, impute, and re-export the raw CSV |
+| Database | SQL (SQLite) | Analytical queries for KPI validation |
+| Visualization | Power BI Desktop | DAX measures, 4-page interactive dashboard |
+| Version control | Git / GitHub | Reproducible pipeline |
+
+---
+
+## 📁 Repository Structure
+
+```text
+corporate-employee-pipeline/
+├── README.md
+├── insights.md
+├── data/
+│   ├── raw/
+│   │   └── Messy_Employee_dataset.csv
+│   └── cleaned/
+│       └── employees_clean.csv
+├── python/
+│   └── clean_employees.py
+├── powerbi/
+│   ├── HR_Analytics_PowerBI.pbix
+│   ├── HR_Analytics_PowerBI.pdf
+│   └── screenshots/
+│       ├── overview.png
+│       ├── compensation.png
+│       ├── attrition.png
+│       └── remote_performance.png
