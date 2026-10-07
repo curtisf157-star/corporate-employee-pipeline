@@ -36,4 +36,4 @@ See [`insights.md`](insights.md) for full findings.
 ## How to Reproduce
 1. `pip install pandas`
 2. `python python/clean_employees.py`
-3. Open `powerbi/HR_Analytics.pbix` in Power BI Desktop
+3. Open `HR_Analytics_PowerBI.pbix` in Power BI Desktop
