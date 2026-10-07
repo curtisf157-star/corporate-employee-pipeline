@@ -17,7 +17,7 @@ An end-to-end HR analytics project: cleaning a messy 1,020-row employee dataset 
 *Average salary by department and region, plus the top 10 earners.*
 
 ### Page 3 — Attrition
-![Attrition](attrition.png)
+![Attrition](Attrition.png)
 *Overall attrition rate, attrition by department, and a stacked breakdown of Active / Inactive / Pending by department.*
 
 ### Page 4 — Remote & Performance
