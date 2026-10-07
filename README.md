@@ -13,7 +13,7 @@ An end-to-end HR analytics project: cleaning a messy 1,020-row employee dataset 
 *Headcount KPIs, hiring trend over time, and headcount by department and region.*
 
 ### Page 2 — Compensation
-![Compensation](compensation.png)
+![Compensation](Compensation.png)
 *Average salary by department and region, plus the top 10 earners.*
 
 ### Page 3 — Attrition
