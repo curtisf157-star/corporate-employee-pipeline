@@ -13,15 +13,15 @@ An end-to-end HR analytics project: cleaning a messy 1,020-row employee dataset 
 *Headcount KPIs, hiring trend over time, and headcount by department and region.*
 
 ### Page 2 — Compensation
-![Compensation](powerbi/screenshots/compensation.png)
+![Compensation](compensation.png)
 *Average salary by department and region, plus the top 10 earners.*
 
 ### Page 3 — Attrition
-![Attrition](powerbi/screenshots/attrition.png)
+![Attrition](attrition.png)
 *Overall attrition rate, attrition by department, and a stacked breakdown of Active / Inactive / Pending by department.*
 
 ### Page 4 — Remote & Performance
-![Remote & Performance](powerbi/screenshots/remote_performance.png)
+![Remote & Performance](remote & performance.png)
 *Remote work split, performance distribution, and a matrix of performance score vs. remote status.*
 
 ---
